@@ -32,8 +32,7 @@ class GoogleTable:
             if not values:
                 print('No data found.')
                 return
-            for row in values:
-                print(row)
+            return values
     def UpdateData(self,work_sheet,range_name,values):
         data=[
             {
